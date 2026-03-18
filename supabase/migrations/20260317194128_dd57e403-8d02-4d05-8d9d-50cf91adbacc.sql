@@ -1,1 +1,0 @@
-CREATE POLICY "History deletable by authenticated" ON public.risk_score_history FOR DELETE TO authenticated USING (true);
