@@ -1,1 +1,0 @@
-ALTER TABLE public.knowledge_ideas ADD COLUMN IF NOT EXISTS fast_track BOOLEAN NOT NULL DEFAULT false;
